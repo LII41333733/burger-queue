@@ -28,9 +28,11 @@ $(function() {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
+
+
     var newBurger = {
       name: $("#bg").val().trim(),
-      eaten: $("[name=eaten]:checked").val().trim()
+      eaten: 0
     };
 
     // Send the POST request.
@@ -60,4 +62,7 @@ $(function() {
       }
     );
   });
+
+  $("#bg").val("");
+
 });

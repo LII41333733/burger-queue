@@ -1,7 +1,26 @@
+/* * {
+  border: 1px solid red;
+} */
+
+body {
+  text-align: center;
+  background: #FFF10A;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+ul {
+  padding: 0;
+  background: #FF2D08;
+}
+
 li {
   padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin: 5px 0;
+  background: #FEC208;
+  list-style-type:none;
+  text-align: center;
+  border: 1px solid black;
 }
 
 .label {
@@ -16,4 +35,95 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+
+.container {
+  display: flex;
+  text-align: center;
+}
+
+.col, .container, ul {
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.col {
+  border: 5px solid black;
+  padding-bottom: 30px;
+  width: 31%;
+  min-height: 200px;
+  height: auto;
+}
+
+.col-1 {
+  background: #FF2D08;
+  height: 250px;
+}
+.col-2 {
+  background: #FF2D08;
+}
+.col-3 {
+  background: #FF2D08;
+}
+
+h1, h2 {
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    color: white;
+    font-size: 2rem;
+}
+
+h1 {
+  margin: 5px;
+}
+
+h4 {
+  font-size: 1.3rem;
+  padding: 0;
+  margin: 0 0 5px 0;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  color: white;
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+form {
+  background: #FEC208;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+input {
+  display: inline-block;
+}
+
+button {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1px 5px;
+    margin: 0;
+    background: #CF240A;
+    color: #ffffff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 5px;
+}
+
+button:active {
+    transform: scale(0.99);
 }
