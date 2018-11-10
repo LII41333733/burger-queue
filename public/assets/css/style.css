@@ -11,13 +11,13 @@ body {
 
 ul {
   padding: 0;
-  background: #FF2D08;
+  background: #FEC208;;
 }
 
 li {
   padding: 5px;
   margin: 5px 0;
-  background: #FEC208;
+  background: #FF2D08;
   list-style-type:none;
   text-align: center;
   border: 1px solid black;
@@ -57,14 +57,15 @@ li {
 }
 
 .col-1 {
-  background: #FF2D08;
+  background: #FEC208;
   height: 250px;
 }
 .col-2 {
-  background: #FF2D08;
+  background: #FEC208;
 }
 .col-3 {
-  background: #FF2D08;
+  
+  background: #FEC208;
 }
 
 h1, h2 {
@@ -100,7 +101,7 @@ h4 {
 }
 
 form {
-  background: #FEC208;
+  background: #FF2D08;
   padding: 20px;
   border: 1px solid black;
 }
@@ -114,7 +115,7 @@ button {
     border: 1px solid black;
     padding: 1px 5px;
     margin: 0;
-    background: #CF240A;
+    background: #23ad27;
     color: #ffffff;
     font-size: 0.9rem;
     cursor: pointer;

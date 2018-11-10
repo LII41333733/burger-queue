@@ -1,6 +1,17 @@
+{{#unless eat}}
+<li>
+	
+	<h4>{{name}}</h4>
+	<button class="delete-burger" data-id="{{this.id}}">Delete!</button>
+</li>
+
+{{else}}
+
 <li>
 	<h4>{{name}}</h4>
 	<button class="change-eat" data-id="{{id}}" data-newly-eaten="{{eat}}">Eat!</button>
 
 	<button class="delete-burger" data-id="{{this.id}}">Delete!</button>
 </li>
+
+{{/unless}}
