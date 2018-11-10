@@ -39,12 +39,13 @@ li {
 
 
 .container {
-  display: flex;
-  text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .col, .container, ul {
-  justify-content: center;
   margin: 0 auto;
 }
 
@@ -52,8 +53,6 @@ li {
   border: 5px solid black;
   padding-bottom: 30px;
   width: 31%;
-  min-height: 200px;
-  height: auto;
 }
 
 .col-1 {
@@ -62,10 +61,12 @@ li {
 }
 .col-2 {
   background: #FEC208;
+  height: auto;
 }
 .col-3 {
   
   background: #FEC208;
+  height: auto;
 }
 
 h1, h2 {
@@ -78,8 +79,14 @@ h1, h2 {
     font-size: 2rem;
 }
 
-h1 {
+h1, .subtitle {
   margin: 5px;
+  color: #CF240A;
+  text-shadow:
+  -1px -1px 0 white,
+  1px -1px 0 white,
+  -1px 1px 0 white,
+  1px 1px 0 white;
 }
 
 h4 {
