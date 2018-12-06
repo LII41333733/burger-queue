@@ -4,7 +4,7 @@
 
 body {
   text-align: center;
-  background: #FFF10A;
+  background: #FFFFFF;
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 1px;
 }
@@ -81,12 +81,8 @@ h1, h2 {
 
 h1, .subtitle {
   margin: 5px;
-  color: #CF240A;
-  text-shadow:
-  -1px -1px 0 white,
-  1px -1px 0 white,
-  -1px 1px 0 white,
-  1px 1px 0 white;
+  color: #efff00;
+  text-shadow: -1.5px -1.5px 0 #CF240A, 1.5px -1.5px 0 #CF240A, -1.5px 1.5px 0 #CF240A, 1.5px 1.5px 0 #CF240A;
 }
 
 h4 {
